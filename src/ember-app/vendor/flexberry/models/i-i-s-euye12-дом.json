@@ -1,0 +1,62 @@
+﻿{
+  "name": "IISEuye12Дом",
+  "modelName": "i-i-s-euye12-дом",
+  "className": "Дом",
+  "nameSpace": "IIS.Euye12",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерДома",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "улица",
+      "relatedTo": "i-i-s-euye12-улица",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ДомE",
+      "modelName": "i-i-s-euye12-дом",
+      "attrs": [
+        {
+          "name": "номерДома",
+          "caption": "Номер дома",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ДомL",
+      "modelName": "i-i-s-euye12-дом",
+      "attrs": [
+        {
+          "name": "номерДома",
+          "caption": "Номер дома",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

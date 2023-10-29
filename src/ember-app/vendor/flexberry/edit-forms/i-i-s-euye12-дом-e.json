@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Дом",
+  "name": "IISEuye12ДомE",
+  "className": "ДомE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-euye12-дом",
+      "modelProjection": "ДомE"
+    }
+  ]
+}

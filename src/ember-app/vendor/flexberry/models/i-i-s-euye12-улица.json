@@ -1,0 +1,60 @@
+﻿{
+  "name": "IISEuye12Улица",
+  "modelName": "i-i-s-euye12-улица",
+  "className": "Улица",
+  "nameSpace": "IIS.Euye12",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "имяУлицы",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "город",
+      "relatedTo": "i-i-s-euye12-город",
+      "inverse": "улица"
+    }
+  ],
+  "projections": [
+    {
+      "name": "УлицаE",
+      "modelName": "i-i-s-euye12-улица",
+      "attrs": [
+        {
+          "name": "имяУлицы",
+          "caption": "Имя улицы",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "УлицаL",
+      "modelName": "i-i-s-euye12-улица",
+      "attrs": [
+        {
+          "name": "имяУлицы",
+          "caption": "Имя улицы",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

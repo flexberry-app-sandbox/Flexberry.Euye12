@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-euye12-дом-e",
+  "editForm": "i-i-s-euye12-дом-e",
+  "external": false,
+  "caption": "Дом",
+  "name": "IISEuye12ДомL",
+  "className": "ДомL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-euye12-дом",
+      "modelProjection": "ДомL"
+    }
+  ]
+}

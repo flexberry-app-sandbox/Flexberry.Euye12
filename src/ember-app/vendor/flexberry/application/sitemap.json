@@ -1,0 +1,36 @@
+﻿{
+  "applicationCaption": "Euye12",
+  "applicationTitle": "Euye12",
+  "items": [
+    {
+      "link": null,
+      "menuName": "euye12",
+      "caption": "Euye12",
+      "title": "Euye12",
+      "children": [
+        {
+          "link": "i-i-s-euye12-улица-l",
+          "menuName": null,
+          "caption": "Улица",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-euye12-дом-l",
+          "menuName": null,
+          "caption": "Дом",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-euye12-комната-l",
+          "menuName": null,
+          "caption": "Комната",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

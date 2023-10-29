@@ -1,0 +1,1 @@
+docker-compose -p euye12-java down
